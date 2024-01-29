@@ -2,7 +2,7 @@
   "name": "portfolio-web-developer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://varvarakorableva.github.io/portfolio-web-developer/",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",

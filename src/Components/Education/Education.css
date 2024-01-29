@@ -1,8 +1,15 @@
 .education {
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+/*
+    background-image: url(../../Images/mainpic.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
     
 }
 .education-title {
@@ -22,8 +29,9 @@
     flex-direction: column;
     margin: auto;
     max-width: 800px;
+    /*backdrop-filter: blur(4px);
 
-    /*height: calc(100vh - 88px - 175px - 50px);*/
+    height: calc(100vh - 88px - 175px - 50px);*/
 }
 
 @media screen and (max-width: 800px) {

@@ -50,12 +50,26 @@
 @media screen and (max-width: 480px) {
     .project__carusel-pic {
         width: 130px;
+        margin: 2px;
     }
 }
 
 @media screen and (max-width: 420px) {
     .project__carusel-pic {
         width: 110px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project__carusel-pic {
+        width: 100px;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .project__carusel-pic {
+        width: 95px;
     }
 }
 

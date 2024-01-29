@@ -86,6 +86,13 @@
     transition: 1s linear;
 }
 
+@media screen and (max-width: 510px) {
+    .header__img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
 .header__title-container {
     max-width: 500px;
     margin: 20px;

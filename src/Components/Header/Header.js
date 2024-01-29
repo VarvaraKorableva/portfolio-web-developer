@@ -49,7 +49,7 @@ function Header() {
             <img src={myImage} className="header__img" alt='My_pic'></img>
           </div>
         </div>
-
+        
     </header>
 )
 }

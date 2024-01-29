@@ -1,17 +1,42 @@
 {
   "files": {
-    "main.css": "./static/css/main.4958d16c.css",
-    "main.js": "./static/js/main.ab5489a1.js",
+    "main.css": "./static/css/main.606a09ec.css",
+    "main.js": "./static/js/main.a0f1d5fe.js",
     "static/js/787.852259af.chunk.js": "./static/js/787.852259af.chunk.js",
+    "static/media/HaifaPicMine.png": "./static/media/HaifaPicMine.f7856e5342876bfb0397.png",
+    "static/media/MainDreams.png": "./static/media/MainDreams.481720fa47ac5e6a04b3.png",
+    "static/media/HaifaMainPic.png": "./static/media/HaifaMainPic.7643c6b37dd7a08ae088.png",
+    "static/media/Baikal.png": "./static/media/Baikal.a5e56e1875655de84c45.png",
+    "static/media/mestoBicPic.png": "./static/media/mestoBicPic.d6d7f29fb744576387fe.png",
+    "static/media/mainpicstudy.png": "./static/media/mainpicstudy.fda80c1fa62fd0359258.png",
+    "static/media/velestasks.png": "./static/media/velestasks.2e1436fe107485e13bf3.png",
+    "static/media/pictravelkosa.png": "./static/media/pictravelkosa.602c5a08d567a50c1b45.png",
+    "static/media/MestoMainPic.png": "./static/media/MestoMainPic.cd1b2ac60c823c97f7b6.png",
+    "static/media/travelsee.png": "./static/media/travelsee.ee01ce2eb78d2ad869ef.png",
+    "static/media/aistmain.png": "./static/media/aistmain.f39dcbb398e7250d812b.png",
+    "static/media/HaifaNature.png": "./static/media/HaifaNature.26d7daaf7b5a91d82d33.png",
+    "static/media/HaifaTransport.png": "./static/media/HaifaTransport.ca1d4c3289b29951b18c.png",
+    "static/media/MestoPopup.png": "./static/media/MestoPopup.8834f6dce02556603f0d.png",
+    "static/media/MainDreamsFriends.png": "./static/media/MainDreamsFriends.72578ef2dd47b4b24d82.png",
+    "static/media/HaifaMuseums.png": "./static/media/HaifaMuseums.5a89b47b1db1817001a9.png",
     "static/media/mainpic.jpeg": "./static/media/mainpic.7cf2be0d2234f0f0f131.jpeg",
+    "static/media/aistformpic.png": "./static/media/aistformpic.009c68e63572abdeedcb.png",
+    "static/media/picstudyfridman.png": "./static/media/picstudyfridman.d8f63244c1b3ce22d5e9.png",
+    "static/media/dreamsAdd.png": "./static/media/dreamsAdd.8b354d27978e4974b971.png",
+    "static/media/picstudytech.png": "./static/media/picstudytech.e5106b80fa23eacf6396.png",
     "static/media/mypic.jpg": "./static/media/mypic.c78beab660997333467a.jpg",
+    "static/media/dreamssecondmain.png": "./static/media/dreamssecondmain.d2f425c0ff97bd9300a7.png",
+    "static/media/veles.png": "./static/media/veles.defc84bb7f4aa8241999.png",
+    "static/media/mainaistpic.png": "./static/media/mainaistpic.1b016d76fc7bf8655363.png",
+    "static/media/velesT.png": "./static/media/velesT.8d88dae01ba4a39d2d2e.png",
+    "static/media/api.png": "./static/media/api.c223fca7e02d0eeaacbe.png",
     "index.html": "./index.html",
-    "main.4958d16c.css.map": "./static/css/main.4958d16c.css.map",
-    "main.ab5489a1.js.map": "./static/js/main.ab5489a1.js.map",
+    "main.606a09ec.css.map": "./static/css/main.606a09ec.css.map",
+    "main.a0f1d5fe.js.map": "./static/js/main.a0f1d5fe.js.map",
     "787.852259af.chunk.js.map": "./static/js/787.852259af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4958d16c.css",
-    "static/js/main.ab5489a1.js"
+    "static/css/main.606a09ec.css",
+    "static/js/main.a0f1d5fe.js"
   ]
 }

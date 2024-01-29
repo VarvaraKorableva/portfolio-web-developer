@@ -23,7 +23,7 @@ return (
           </p>
           <p className='about__text'>Now, I work as a frontend developer at Veles Research, and my dreams keep 
           coming true.</p>
-          <p className='about__text'>I've completed over 15 projects from scratch using React, collaborated with 
+          <p className='about__text'>I've completed over 30 projects from scratch using React, collaborated with 
           amazing teams, and I continue to grow every day.</p>
           <p className='about__text'>I'm passionate about sports (snowboarding, climbing, paragliding), 
           music, and traveling (having explored more than 30 countries). My goal is to be happy and healthy.</p>

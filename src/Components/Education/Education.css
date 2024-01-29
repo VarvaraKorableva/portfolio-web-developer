@@ -16,7 +16,7 @@
     flex-direction: column;
     margin: auto;
     max-width: 800px;
-    height: calc(100vh - 88px - 175px - 50px);
+    /*height: calc(100vh - 88px - 175px - 50px);*/
 }
 .education-item {
     list-style-type: none;

@@ -2,14 +2,14 @@ import React from 'react'
 //import { Route, Routes } from 'react-router-dom'
 
 import './App.css';
-import Header from './Components/Header/Header'
+/*import Header from './Components/Header/Header'
 import MyStrongSides from './Components/MyStrongSides/MyStrongSides'
 import About from './Components/About/About'
 import Stack from './Components/Stack/Stack'
 import Footer from './Components/Footer/Footer'
 import WorkExperience from './Components/WorkExperience/WorkExperience'
 import Education from './Components/Education/Education'
-import ProjectContainer from './Components/ProjectContainer/ProjectContainer'
+import ProjectContainer from './Components/ProjectContainer/ProjectContainer'*/
 
 function App() {
   return (

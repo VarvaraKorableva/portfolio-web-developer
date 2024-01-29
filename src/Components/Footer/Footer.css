@@ -5,10 +5,10 @@
     background-size: cover;
     padding-bottom: 50px;
     display: flex;
-    justify-content: end;
+    /*justify-content: end;
     flex-direction: column;
     justify-content: end;
-    align-items: end;
+    align-items: end;*/
 }
 
 .footer__contact-container {

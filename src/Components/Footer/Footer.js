@@ -1,11 +1,14 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 import './Footer.css'
+import Contact from '../Contact/Contact'
 
 function Footer() {
 
 return (
     <footer className='footer'>
+        <Contact></Contact>
+        <div>
         <ul className='footer__contact-container-wrapper'>
             <li className='footer__contact-item footer__contact-item-wrapper'>
                 <a className='footer__contact-item-link' href='mailto:varkor90@gmail.com' target='_blank'>
@@ -46,6 +49,7 @@ return (
                 </a>
             </li>
         </ul>
+        </div>
     </footer>
 )
 }

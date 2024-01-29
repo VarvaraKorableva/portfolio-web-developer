@@ -11,7 +11,7 @@ function ContactForm() {
   return (
       <form onSubmit={handleSubmit} className='contact__form'>
       <label htmlFor="email" className='contact__title'>
-        If you want to contact me, just call or message me.
+      If you want to reach me, feel free to call or message.
       </label>
       <input
         id="email"

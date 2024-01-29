@@ -1,15 +1,42 @@
 {
   "files": {
-    "main.css": "./static/css/main.fab5a4a6.css",
-    "main.js": "./static/js/main.ab313cb5.js",
-    "static/js/787.852259af.chunk.js": "./static/js/787.852259af.chunk.js",
-    "index.html": "./index.html",
-    "main.fab5a4a6.css.map": "./static/css/main.fab5a4a6.css.map",
-    "main.ab313cb5.js.map": "./static/js/main.ab313cb5.js.map",
-    "787.852259af.chunk.js.map": "./static/js/787.852259af.chunk.js.map"
+    "main.css": "/portfolio-web-developer/static/css/main.b66f3932.css",
+    "main.js": "/portfolio-web-developer/static/js/main.ca1fc082.js",
+    "static/js/787.852259af.chunk.js": "/portfolio-web-developer/static/js/787.852259af.chunk.js",
+    "static/media/HaifaPicMine.png": "/portfolio-web-developer/static/media/HaifaPicMine.f7856e5342876bfb0397.png",
+    "static/media/MainDreams.png": "/portfolio-web-developer/static/media/MainDreams.481720fa47ac5e6a04b3.png",
+    "static/media/HaifaMainPic.png": "/portfolio-web-developer/static/media/HaifaMainPic.7643c6b37dd7a08ae088.png",
+    "static/media/Baikal.png": "/portfolio-web-developer/static/media/Baikal.a5e56e1875655de84c45.png",
+    "static/media/mestoBicPic.png": "/portfolio-web-developer/static/media/mestoBicPic.d6d7f29fb744576387fe.png",
+    "static/media/mainpicstudy.png": "/portfolio-web-developer/static/media/mainpicstudy.fda80c1fa62fd0359258.png",
+    "static/media/velestasks.png": "/portfolio-web-developer/static/media/velestasks.2e1436fe107485e13bf3.png",
+    "static/media/pictravelkosa.png": "/portfolio-web-developer/static/media/pictravelkosa.602c5a08d567a50c1b45.png",
+    "static/media/MestoMainPic.png": "/portfolio-web-developer/static/media/MestoMainPic.cd1b2ac60c823c97f7b6.png",
+    "static/media/travelsee.png": "/portfolio-web-developer/static/media/travelsee.ee01ce2eb78d2ad869ef.png",
+    "static/media/aistmain.png": "/portfolio-web-developer/static/media/aistmain.f39dcbb398e7250d812b.png",
+    "static/media/HaifaNature.png": "/portfolio-web-developer/static/media/HaifaNature.26d7daaf7b5a91d82d33.png",
+    "static/media/HaifaTransport.png": "/portfolio-web-developer/static/media/HaifaTransport.ca1d4c3289b29951b18c.png",
+    "static/media/MestoPopup.png": "/portfolio-web-developer/static/media/MestoPopup.8834f6dce02556603f0d.png",
+    "static/media/MainDreamsFriends.png": "/portfolio-web-developer/static/media/MainDreamsFriends.72578ef2dd47b4b24d82.png",
+    "static/media/HaifaMuseums.png": "/portfolio-web-developer/static/media/HaifaMuseums.5a89b47b1db1817001a9.png",
+    "static/media/mainpic.jpeg": "/portfolio-web-developer/static/media/mainpic.7cf2be0d2234f0f0f131.jpeg",
+    "static/media/aistformpic.png": "/portfolio-web-developer/static/media/aistformpic.009c68e63572abdeedcb.png",
+    "static/media/picstudyfridman.png": "/portfolio-web-developer/static/media/picstudyfridman.d8f63244c1b3ce22d5e9.png",
+    "static/media/dreamsAdd.png": "/portfolio-web-developer/static/media/dreamsAdd.8b354d27978e4974b971.png",
+    "static/media/picstudytech.png": "/portfolio-web-developer/static/media/picstudytech.e5106b80fa23eacf6396.png",
+    "static/media/mypic.jpg": "/portfolio-web-developer/static/media/mypic.c78beab660997333467a.jpg",
+    "static/media/dreamssecondmain.png": "/portfolio-web-developer/static/media/dreamssecondmain.d2f425c0ff97bd9300a7.png",
+    "static/media/veles.png": "/portfolio-web-developer/static/media/veles.defc84bb7f4aa8241999.png",
+    "static/media/mainaistpic.png": "/portfolio-web-developer/static/media/mainaistpic.1b016d76fc7bf8655363.png",
+    "static/media/velesT.png": "/portfolio-web-developer/static/media/velesT.8d88dae01ba4a39d2d2e.png",
+    "static/media/api.png": "/portfolio-web-developer/static/media/api.c223fca7e02d0eeaacbe.png",
+    "index.html": "/portfolio-web-developer/index.html",
+    "main.b66f3932.css.map": "/portfolio-web-developer/static/css/main.b66f3932.css.map",
+    "main.ca1fc082.js.map": "/portfolio-web-developer/static/js/main.ca1fc082.js.map",
+    "787.852259af.chunk.js.map": "/portfolio-web-developer/static/js/787.852259af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fab5a4a6.css",
-    "static/js/main.ab313cb5.js"
+    "static/css/main.b66f3932.css",
+    "static/js/main.ca1fc082.js"
   ]
 }

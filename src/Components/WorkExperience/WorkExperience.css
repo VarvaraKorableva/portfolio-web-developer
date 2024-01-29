@@ -1,5 +1,4 @@
 .experience {
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -14,4 +13,11 @@
     margin: auto;
     justify-content: center;
     max-width: 750px;
+}
+
+@media screen and (max-width: 800px) {
+    .experience__wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

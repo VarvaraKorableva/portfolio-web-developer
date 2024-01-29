@@ -1,9 +1,9 @@
 .about {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 200px);
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .about__text-continer {
@@ -12,6 +12,13 @@
    max-width: 750px; 
    margin: auto;
    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .about__text-continer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .about__title {

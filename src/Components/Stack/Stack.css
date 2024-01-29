@@ -1,7 +1,7 @@
 .stack {
     margin-top: 50px;
-    margin-bottom: 50px;
-    /*display: flex;
+   /* margin-bottom: 50px;
+    display: flex;
     align-items: center;*/
     padding-left: 50px;
     padding-right: 50px;
@@ -30,3 +30,17 @@
      border: 2px solid #fff;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
    }
+
+   @media screen and (max-width: 360px) {
+    .stack__item {
+      width: 90px;
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+  .stack__item {
+    width: 85px;
+    font-size: 10px;
+  }
+}

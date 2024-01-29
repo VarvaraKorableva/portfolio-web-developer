@@ -29,6 +29,14 @@
     box-sizing: border-box;
     margin: auto;
 }
+
+@media screen and (max-width: 510px) {
+    .MyStrongSides__grid-container {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+
 .MyStrongSides__grid-item {
     list-style-type: none;
     border-radius: 20px;
@@ -38,3 +46,16 @@
     backdrop-filter: blur(8px);
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+@media screen and (max-width: 510px) {
+    .MyStrongSides__grid-item {
+      font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .MyStrongSides__grid-item {
+      font-size: 10px;
+    }
+}
+

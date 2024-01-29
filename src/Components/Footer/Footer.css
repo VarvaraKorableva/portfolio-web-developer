@@ -5,10 +5,12 @@
     background-size: cover;
     padding-bottom: 50px;
     display: flex;
-    /*justify-content: end;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;*/
+}
+
+@media screen and (max-width: 650px) {
+    .footer  {
+        flex-direction: column;
+    }
 }
 
 .footer__contact-container {
@@ -47,4 +49,10 @@
 
 .footer__contact-item-wrapper {
     display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .footer__contact__info__container {
+        align-self: flex-end;
+    }
 }

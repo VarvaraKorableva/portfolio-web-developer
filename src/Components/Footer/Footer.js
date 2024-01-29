@@ -8,7 +8,7 @@ function Footer() {
 return (
     <footer className='footer'>
         <Contact></Contact>
-        <div>
+        <div className='footer__contact__info__container'>
         <ul className='footer__contact-container-wrapper'>
             <li className='footer__contact-item footer__contact-item-wrapper'>
                 <a className='footer__contact-item-link' href='mailto:varkor90@gmail.com' target='_blank'>

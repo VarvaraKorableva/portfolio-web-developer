@@ -1,0 +1,26 @@
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    justify-content: center;
+    align-items: center;
+}
+
+.about__text-continer {
+   display: flex;
+   flex-direction: column;
+   max-width: 750px; 
+   margin: auto;
+   margin-top: 20px;
+}
+
+.about__title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.about__text {
+    margin-bottom: 0;
+}

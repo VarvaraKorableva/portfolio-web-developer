@@ -1,0 +1,26 @@
+
+.pogination__item-btn {
+    list-style-type: none;
+    margin: 5px;
+
+}
+.pogination__btn {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pogination__btn_active {
+    background-color: #BE9FE1;
+    border: 2px solid rgba(6, 89, 60, 0.7);
+    transition: 0.5s ease;
+}
+
+.pogination__btn:hover {
+    background-color: #BE9FE1;
+    border: 2px solid rgba(6, 89, 60, 0.7);
+    transition: 0.5s ease;
+}

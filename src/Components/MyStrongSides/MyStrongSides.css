@@ -1,0 +1,40 @@
+.MyStrongSides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../../Images/mainpic.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.MyStrongSides__title {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.MyStrongSides__grid-container {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: auto;
+    gap: 15px;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+.MyStrongSides__grid-item {
+    list-style-type: none;
+    border-radius: 20px;
+    border: none;
+    height: 200px;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,36 @@
+.education {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.education-title {
+    text-align: center;
+    margin-top: 0;
+}
+.education-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 800px;
+    height: calc(100vh - 88px - 175px - 50px);
+}
+.education-item {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F1F1F6;
+    min-height: 50px;
+}
+.education-item-data {
+    width: 15%;
+}
+.education-item-info {
+    width: 35%;
+}
+.education-item-academy {
+    width: 45%;
+}

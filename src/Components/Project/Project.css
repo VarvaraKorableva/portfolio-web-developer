@@ -47,14 +47,26 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .project__carusel-pic {
-        width: 100px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .project__carusel-pic {
+        width: 110px;
     }
 }
 
 .project__carusel-project-name {
     text-align: center;
+}
+
+@media screen and (max-width: 510px) {
+    .project__carusel-project-name {
+      font-size: 14px;
+    }
 }
 
 .project__carusel-pic-container {
@@ -114,5 +126,11 @@
 @media screen and (max-width: 630px) {
     .project__text-container {
       margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .project__text {
+      font-size: 12px;
     }
 }

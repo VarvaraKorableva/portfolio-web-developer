@@ -26,6 +26,18 @@
     margin-top: 0;
 }
 
+@media screen and (max-width: 510px) {
+    .about__title {
+      font-size: 14px;
+    }
+}
+
 .about__text {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 510px) {
+    .about__text {
+      font-size: 12px;
+    }
 }

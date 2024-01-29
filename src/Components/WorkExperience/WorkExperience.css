@@ -6,6 +6,12 @@
     text-align: center;
     margin-top: 0;
 }
+
+@media screen and (max-width: 510px) {
+    .experience__title  {
+      font-size: 14px;
+    }
+}
   
 .experience__wrapper {
     display: flex;
@@ -19,5 +25,11 @@
     .experience__wrapper {
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .experience__wrapper {
+      font-size: 12px;
     }
 }

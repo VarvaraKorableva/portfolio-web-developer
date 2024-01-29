@@ -1,8 +1,5 @@
 .stack {
     margin-top: 50px;
-   /* margin-bottom: 50px;
-    display: flex;
-    align-items: center;*/
     padding-left: 50px;
     padding-right: 50px;
    }
@@ -10,6 +7,12 @@
        text-align: center;
        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
    }
+
+   @media screen and (max-width: 510px) {
+    .stack__title {
+      font-size: 16px;
+    }
+}
    .stack__containe {
      padding: 0;
      display: flex;
@@ -31,7 +34,7 @@
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
    }
 
-   @media screen and (max-width: 360px) {
+   @media screen and (max-width: 510px) {
     .stack__item {
       width: 90px;
       font-size: 12px;
@@ -40,7 +43,7 @@
 
 @media screen and (max-width: 360px) {
   .stack__item {
-    width: 85px;
+    width: 75px;
     font-size: 10px;
   }
 }

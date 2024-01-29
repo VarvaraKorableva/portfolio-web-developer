@@ -13,6 +13,13 @@
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 510px) {
+    .MyStrongSides__title {
+      font-size: 16px;
+    }
 }
 
 .MyStrongSides__grid-container {

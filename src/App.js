@@ -11,15 +11,15 @@ import ProjectContainer from './components/ProjectContainer/ProjectContainer'
 
 function App() {
   return (
-    <div className="App"> 
-      <Header></Header>
-      <MyStrongSides/>
-      <Stack></Stack>
-      <ProjectContainer></ProjectContainer>
-      <WorkExperience></WorkExperience>
-      <Education></Education>
-      <About></About>
-      <Footer></Footer>
+    <div className="App">
+        <Header></Header>
+        <MyStrongSides/>
+        <Stack></Stack>
+        <ProjectContainer></ProjectContainer>
+        <WorkExperience></WorkExperience>
+        <Education></Education>
+        <About></About>
+        <Footer></Footer>
     </div>
   );
 }

@@ -8,7 +8,8 @@
 .header__navigation {
     display: flex;
     justify-content: space-between;
-    background-image: url(../../Images/mainpic.jpeg);
+    background-image: url(../../Images/mainpic.png);
+    /*background-image: url(/src/Images/mainpic.png);*/
     background-repeat: no-repeat;
     background-position: start;
     background-size: cover;
@@ -98,7 +99,8 @@
     margin: 20px;
 }
 .header__container-wrapper {
-    background-image: url(../../Images/mainpic.jpeg);
+    background-image: url(../../Images/mainpic.png);
+    /*background-image: url(/src/Images/mainpic.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

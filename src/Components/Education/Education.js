@@ -3,8 +3,8 @@ import './Education.css'
 function Education() {
 
 return (
-    <section className='education'>
-        <h2 className='education-title'>Education</h2>
+    <section className='education' id='education'>
+        <h2 className='education-title' >Education</h2>
         <ul className='education-container'>
             <li className='education-item'>
                 <p className='education-item-data'>2021-2022</p>

@@ -34,7 +34,7 @@ function ProjectContainer() {
   }, [currentPage]);
 
   return (
-    <section className='project-container'>
+    <section className='project-container' id="projects">
         <h2 className='project-container__title'>Projects</h2>
         <ul className='projects__project-container'>
           {toRender.map((project) => (

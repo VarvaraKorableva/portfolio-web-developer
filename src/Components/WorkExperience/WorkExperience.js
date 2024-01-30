@@ -4,7 +4,7 @@ import './WorkExperience.css'
 function WorkExperience() {
 
 return (
-   <section className="experience">
+   <section className="experience" id="experience">
         <h2 className="experience__title">Experience</h2>
           <div className="experience__wrapper">
             <h3 className="experience__subtitle">Dec 2022 - Present: Web-Developer, Veles Research, (Software Development)</h3>

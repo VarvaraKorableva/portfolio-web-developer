@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import myImage from '../../Images/mypic.jpg'
+//import { Link, NavLink } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
 
@@ -13,20 +15,20 @@ function Header() {
                 <p className="header__logo">Varvara Korableva</p>
               </div>
               <ul className="header__container-items">
-                <li className="header__container-item header_link">
-                  About me
+                <li className="header__container-item">
+                  <Link to="#aboutme" className='header_link'>About me</Link>
                 </li>
                 <li className="header__container-item header_link">
-                  Projects
+                  <Link to="#projects" className='header_link'>Projects</Link>
                 </li>
                 <li className="header__container-item header_link">
-                  Experience
+                  <Link to="#experience" className='header_link'>Experience</Link>
                 </li>
                 <li className="header__container-item header_link">
-                  Education
+                  <Link to="#education" className='header_link'>Education</Link>
                 </li>
                 <li className="header__container-item header_link">
-                  Contact
+                  <Link to="#contact" className='header_link'>Contact</Link>
                 </li>
               </ul>
               <div className='header__burger-menu'></div>
@@ -44,7 +46,7 @@ function Header() {
                     My ultimate goal is to enhance the user experience and provide a seamless 
                     and enjoyable browsing experience.
                 </p>
-                <div className="header__project-link">Take a look on my Pojects →</div> 
+                <Link to={'#projects'} className="header__project-link">Take a look on my Pojects →</Link> 
             </div>
             <img src={myImage} className="header__img" alt='My_pic'></img>
           </div>

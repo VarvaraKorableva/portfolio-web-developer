@@ -6,7 +6,7 @@ import Contact from '../Contact/Contact'
 function Footer() {
 
 return (
-    <footer className='footer'>
+    <footer className='footer' id="contact">
         <Contact></Contact>
         <div className='footer__contact__info__container'>
         <ul className='footer__contact-container-wrapper'>

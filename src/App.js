@@ -8,18 +8,35 @@ import Footer from './components/Footer/Footer'
 import WorkExperience from './components/WorkExperience/WorkExperience'
 import Education from './components/Education/Education'
 import ProjectContainer from './components/ProjectContainer/ProjectContainer'
+import Navigation from './components/Navigation/Navigation'
 
 function App() {
+  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = React.useState(false)
+  
+  function handleBurgerMenuClick() {
+    setIsBurgerMenuOpen(true)
+  }
+
+  function closeAllPopups() {
+    setIsBurgerMenuOpen(false)
+  }
+
   return (
     <div className="App">
-        <Header></Header>
+        <Header isBurgerMenuCliked={handleBurgerMenuClick}/>
         <MyStrongSides/>
-        <Stack></Stack>
-        <ProjectContainer></ProjectContainer>
-        <WorkExperience></WorkExperience>
-        <Education></Education>
-        <About></About>
-        <Footer></Footer>
+        <Stack/>
+        <ProjectContainer/>
+        <WorkExperience/>
+        <Education/>
+        <About/>
+        <Footer/>
+
+        <Navigation
+          isBurgerMenuCliked={handleBurgerMenuClick}
+          isOpen={isBurgerMenuOpen}
+          onClose={closeAllPopups} 
+        />
     </div>
   );
 }

@@ -10,6 +10,7 @@ return (
             <li className="stack__item">JavaScript</li>
             <li className="stack__item">ES6</li>
             <li className="stack__item">React</li>
+            <li className="stack__item">Redux</li>
             <li className="stack__item">Rest API</li>
             <li className="stack__item">RESTful API</li>
             <li className="stack__item">Git</li>

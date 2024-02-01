@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
 
-    height: calc(100vh - 88px - 175px - 50px);
+    /*height: calc(100vh - 88px - 175px - 50px);*/
 }
 
 @media screen and (max-width: 700px) {
@@ -28,25 +28,49 @@
 @media screen and (max-width: 550px) {
     .contact__form {
         padding: 0;
-        margin: 5px;
-        width: 400px;
+        margin: 10px;
+        margin-bottom: 50px;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .contact__form {
-        width: 300px;
+        width: 380px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .contact__form {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contact__form {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .contact__form {
+        width: 310px;
+    }
+}
+
 .contact__succeed__message {
-    color: #BE9FE1;
+    color: #BE9FE1; 
+    text-align: center;
 }
 
 .contact__succeed__message__container {
-    height: calc(100vh - 88px - 175px - 50px);
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    height: 100px;
 }
 
 .contact__input {
@@ -83,7 +107,22 @@
     border: 2px solid rgba(6, 89, 60, 0.7);
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 50px;
 }
+
+@media screen and (max-width: 550px) {
+    .contact__btn {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .contact__btn {
+        font-size: 12px;
+    }
+}
+
 
 .contact__btn:hover {
     transform: scale(1.1);
@@ -97,4 +136,12 @@
     font-size: 16px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 510px) {
+    .contact__title {
+        font-size: 14px;
+        text-align: center;
+    }
 }

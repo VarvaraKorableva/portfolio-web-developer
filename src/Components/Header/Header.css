@@ -13,6 +13,8 @@
     background-repeat: no-repeat;
     background-position: start;
     background-size: cover;
+    border-bottom: 3px solid #fff;
+
 }
 
 .header__logo-container {
@@ -204,6 +206,9 @@
     cursor: pointer;
     margin: 10px;
     cursor: pointer;
+
+
+    align-self: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -222,3 +227,5 @@
       font-size: 12px;
     }
 }
+
+

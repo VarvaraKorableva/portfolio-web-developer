@@ -18,8 +18,7 @@ return (
                     code merging, and reviewing processes,
                 </li>
                 <li>
-                    Collaborate with Backend Developers (Python, Django, DRF, PostgeSQL, 
-                    Ruby on Rails, NodeJS) to create API, merge and review code,
+                    Collaborate with Backend Developers to create API, merge and review code,
                 </li>
                 <li>Refactoring of the codebase
                 </li>

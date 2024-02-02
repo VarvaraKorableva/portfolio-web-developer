@@ -1,9 +1,9 @@
 import React from 'react'
 import './Project.css'
 import Slider from '../Slider/Slider'
-import * as projectData from '../../data/projectsConst'
+import OneProjectPic from '../OneProjectPic/OneProjectPic'
 
-function Project({project}) {
+function Project({project, onCardClick}) {
 
   return (
     <li className='project__item'>
@@ -11,9 +11,9 @@ function Project({project}) {
         <div className='project__carusel'>
         
         <div className='project__carusel-pic-container'>
-            <img src={project.pic} className='project__carusel-pic' alt='NicePic from my project'></img>
-            <img src={project.picsecond} className='project__carusel-pic' alt='NicePic from my project'></img>
-            <img src={project.picthird} className='project__carusel-pic' alt='NicePic from my project'></img>
+            {project.pic.map((item)=> (
+                <OneProjectPic key={item.pic_id} item={item} onCardClick={onCardClick}/>
+            ))}
         </div>
         <div className='project__text-container'>
             <a href={project.description.link} target='_blank' className='project__link'>Link</a>

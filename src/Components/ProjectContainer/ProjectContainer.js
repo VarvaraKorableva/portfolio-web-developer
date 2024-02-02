@@ -6,7 +6,7 @@ import Project from '../Project/Project'
 import * as projectData from '../../data/projectsConst'
 
 
-function ProjectContainer() {
+function ProjectContainer({onCardClick}) {
 
   const[currentPage, setCurrentPage] = React.useState(0)
   const[toRender, setToRender] = React.useState([projectData.projects[0], projectData.projects[1]])
@@ -41,6 +41,7 @@ function ProjectContainer() {
             <Project 
               project={project}
               key={project.id}
+              onCardClick={onCardClick}
             />
           ))}
         </ul>

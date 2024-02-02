@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import myImage from '../../Images/mypic.jpg'
-//import { Link, NavLink } from 'react-router-dom'
+import resumePath from '../../Images/CV_KorablevaVarvara.pdf'
 import { HashLink as Link } from 'react-router-hash-link';
 
 function Header({isBurgerMenuCliked}) {
@@ -40,13 +40,17 @@ function Header({isBurgerMenuCliked}) {
                 <h1 className="header__title">Korableva Varvara</h1>
                 <h2 className="header__subtitle">Web Developer</h2>
                 <p className="header__text">
-                    Developer with more than two years of experience 
-                    in developing commercial, educational, and pet projects. 
+                    Developer with more than three years of experience 
+                    in web-development. 
                     I have a strong focus on writing clean, maintainable, and scalable code. 
                     My ultimate goal is to enhance the user experience and provide a seamless 
                     and enjoyable browsing experience.
                 </p>
-                <Link to={'#projects'} className="header__project-link">Take a look on my Pojects →</Link> 
+                  {/* <Link to={'#projects'} className="header__project-link">Take a look on my Pojects →</Link> */}
+
+                <a href={resumePath} download="WebDeveloper_KorablevaVarvara.pdf" className="header__project-link">
+                  Download Resume
+                </a>
             </div>
             <img src={myImage} className="header__img" alt='My_pic'></img>
           </div>

@@ -9,16 +9,23 @@ import WorkExperience from './components/WorkExperience/WorkExperience'
 import Education from './components/Education/Education'
 import ProjectContainer from './components/ProjectContainer/ProjectContainer'
 import Navigation from './components/Navigation/Navigation'
+import ImagePopup from './components/ImagePopup/ImagePopup'
 
 function App() {
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = React.useState(false)
-  
+  const [selectedCard, setSelectedCard] = React.useState({})
+
   function handleBurgerMenuClick() {
     setIsBurgerMenuOpen(true)
   }
 
   function closeAllPopups() {
     setIsBurgerMenuOpen(false)
+    setSelectedCard({})
+  }
+
+  function handleCardClick(card) {
+    setSelectedCard(card);
   }
 
   return (
@@ -26,7 +33,9 @@ function App() {
         <Header isBurgerMenuCliked={handleBurgerMenuClick}/>
         <MyStrongSides/>
         <Stack/>
-        <ProjectContainer/>
+        <ProjectContainer
+          onCardClick={handleCardClick}
+        />
         <WorkExperience/>
         <Education/>
         <About/>
@@ -36,6 +45,11 @@ function App() {
           isBurgerMenuCliked={handleBurgerMenuClick}
           isOpen={isBurgerMenuOpen}
           onClose={closeAllPopups} 
+        />
+
+        <ImagePopup 
+          card={selectedCard}
+          onClose={closeAllPopups}
         />
     </div>
   );

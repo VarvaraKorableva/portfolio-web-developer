@@ -104,9 +104,22 @@ export const projects = [
 
     {
       'id': 1,
-      'pic' : velesMain,
-      'picsecond' : velesTask,
-      'picthird' : velesPic,
+      'pic' : [
+        {
+          pic:velesMain,
+          pic_id: 255,
+          pic_name: "Registration page picture"
+        },
+        {
+          pic:velesTask,
+          pic_id: 256,
+          pic_name: "Tasks page picture"},
+        {
+          pic:velesPic,
+          pic_id: 257,
+          pic_name: "Text editor and task page picture"
+        },
+      ],
       'title' : 'Veles. Tasks platform.',
       'description': {
         'link': 'http://task.veleres.ru/',
@@ -117,10 +130,22 @@ export const projects = [
     },
     {
       'id': 2,
-      'pic' : MestoMainPic,
-      'picsecond' : MestoPopup,
-      'picthird' : MestoBicPic,
-      'picfourth' : HaifaTransportPic,
+      'pic' : [
+        {
+          pic:MestoMainPic,
+          pic_id: 258,
+          pic_name: "Main page picture"
+        },
+        {
+          pic:MestoPopup,
+          pic_id: 259,
+          pic_name: "Add new 'mesto' page picture"},
+        {
+          pic:MestoBicPic,
+          pic_id: 260,
+          pic_name: "Show picture page picture"
+        },
+      ],
       'title' : 'Project Mesto',
       'description': {
         'link': 'https://varvarakorableva.github.io/mesto-react/',
@@ -131,10 +156,22 @@ export const projects = [
     },
     {
       'id': 3,
-      'pic' : HaifaMainPic,
-      'picsecond' : HaifaNaturePic,
-      'picthird' : HaifaPicMine,
-      'picfourth' : HaifaTransportPic,
+      'pic' : [
+        {
+          pic:HaifaMainPic,
+          pic_id: 261,
+          pic_name: "Main picture with Bahai gardens page picture"
+        },
+        {
+          pic:HaifaNaturePic,
+          pic_id: 262,
+          pic_name: "Interesting places in Haifa"},
+        {
+          pic:HaifaPicMine,
+          pic_id: 263,
+          pic_name: "Nice pictures of Haifa in Haifa"
+        },
+      ],
       'title' : 'Haifa',
       'description': {
         'link': 'https://varvarakorableva.github.io/Haifa-through-my-eyes/',
@@ -145,10 +182,22 @@ export const projects = [
     },
     {
       'id': 4,
-      'pic' : MainPicStudy,
-      'picsecond' : PicStudyTech,
-      'picthird' : PicStudyFridman,
-      'picfourth' : PicStudyFridman,
+      'pic' : [
+        {
+          pic: MainPicStudy,
+          pic_id: 264,
+          pic_name: "Main picture with famous picture of boy 'Again 2' page picture"
+        },
+        {
+          pic: PicStudyTech,
+          pic_id: 265,
+          pic_name: "Еeaching techniques page picture"},
+        {
+          pic: PicStudyFridman,
+          pic_id: 266,
+          pic_name: "Feynman photograph page picture"
+        },
+      ],
       'title' : 'Learn to learn',
       'description': {
         'link': 'https://varvarakorableva.github.io/how-to-learn/',
@@ -158,10 +207,22 @@ export const projects = [
     },    
     {
       'id': 5,
-      'pic' : TravelSee,
-      'picsecond' : PicTravelKosa,
-      'picthird' : Baikal,
-      'picfourth' : PicStudyFridman,
+      'pic' : [
+        {
+          pic: TravelSee,
+          pic_id: 267,
+          pic_name: "Sights of Russia page picture"
+        },
+        {
+          pic: PicTravelKosa,
+          pic_id: 268,
+          pic_name: "Sights of Russia page picture"},
+        {
+          pic: Baikal,
+          pic_id: 269,
+          pic_name: "Sights of Russia page picture"
+        },
+      ],
       'title' : 'Journey through Russia',
       'description': {
         'link': 'https://varvarakorableva.github.io/russian-travel/',
@@ -171,10 +232,22 @@ export const projects = [
     },
     {
       'id': 6,
-      'pic' : AistMainPic,
-      'picsecond' : MainAistPic,
-      'picthird' : AistFormPic,
-      'picfourth' : HaifaTransportPic,
+      'pic' : [
+        {
+          pic: AistMainPic,
+          pic_id: 270,
+          pic_name: "Main page picture"
+        },
+        {
+          pic: MainAistPic,
+          pic_id: 271,
+          pic_name: "image with a slider and an offer of two services page picture"},
+        {
+          pic: AistFormPic,
+          pic_id: 272,
+          pic_name: "Form page picture"
+        },
+      ],
       'title' : 'Aist',
       'description': {
         'link': 'https://it-aist.ru',
@@ -185,10 +258,22 @@ export const projects = [
     },
     {
       'id': 7,
-      'pic' : apiPic,
-      'picsecond' : apiPic,
-      'picthird' : apiPic,
-      'picfourth' : apiPic,
+      'pic' : [
+        {
+          pic: apiPic,
+          pic_id: 273,
+          pic_name: "API page picture"
+        },
+        {
+          pic: apiPic,
+          pic_id: 274,
+          pic_name: "API page picture"},
+        {
+          pic: apiPic,
+          pic_id: 275,
+          pic_name: "API page picture"
+        },
+      ],
       'title' : 'API',
       'description': {
         'link': "https://github.com/VarvaraKorableva/movies-explorer-api",
@@ -199,10 +284,22 @@ export const projects = [
     },
     {
       'id': 9,
-      'pic' : MainDreams,
-      'picsecond' : MainDreamsFriends,
-      'picthird' : DreamsSecondMain,
-      'picfourth' : DreamsAdd,
+      'pic' : [
+        {
+          pic: MainDreams,
+          pic_id: 276,
+          pic_name: "Main APP page picture"
+        },
+        {
+          pic: MainDreamsFriends,
+          pic_id: 277,
+          pic_name: "Page of one user page picture"},
+        {
+          pic: DreamsSecondMain,
+          pic_id: 278,
+          pic_name: "Discription page picture"
+        },
+      ],
       'title' : 'What-do-you-dream-about?',
       'description': {
         'link': "https://github.com/VarvaraKorableva/what-do-you-dreame-about",
@@ -213,7 +310,7 @@ export const projects = [
     },
     {
       'id': 10,
-      'pic' : AistMainPic,
+      'pic' : [AistMainPic,],
       'title' : 'Aist',
       'description': {
         'description' : "This small app is all about adding pictures, like Instagram, but it's simpler.",
@@ -223,10 +320,7 @@ export const projects = [
     },
     {
       'id': 11,
-      'pic' : MainDreams,
-      'picsecond' : MainDreamsFriends,
-      'picthird' : DreamsSecondMain,
-      'picfourth' : DreamsAdd,
+      'pic' : [MainDreams,MainDreamsFriends,DreamsSecondMain,],
       'title' : 'What-do-you-dream-about?',
       'description': {
         

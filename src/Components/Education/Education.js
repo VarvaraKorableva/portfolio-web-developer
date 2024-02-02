@@ -7,6 +7,11 @@ return (
         <h2 className='education-title' >Education</h2>
         <ul className='education-container'>
             <li className='education-item'>
+                <p className='education-item-data'>2023-2024</p>
+                <p className='education-item-info'>Full-stack Web-Developer training course</p>
+                <p className='education-item-academy'>Developers.Institute, Israel</p>
+            </li>
+            <li className='education-item'>
                 <p className='education-item-data'>2021-2022</p>
                 <p className='education-item-info'>Web-Developer training course</p>
                 <p className='education-item-academy'>Practicum by Yandex</p>

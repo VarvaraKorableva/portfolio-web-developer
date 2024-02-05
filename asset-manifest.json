@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-web-developer/static/css/main.e315e299.css",
-    "main.js": "/portfolio-web-developer/static/js/main.6b35e9b2.js",
+    "main.css": "/portfolio-web-developer/static/css/main.9502bf64.css",
+    "main.js": "/portfolio-web-developer/static/js/main.a9fa1586.js",
     "static/js/787.852259af.chunk.js": "/portfolio-web-developer/static/js/787.852259af.chunk.js",
+    "static/media/mainPic.jpg": "/portfolio-web-developer/static/media/mainPic.4609b6f2bc9d3f68693f.jpg",
     "static/media/HaifaPicMine.png": "/portfolio-web-developer/static/media/HaifaPicMine.f7856e5342876bfb0397.png",
     "static/media/MainDreams.png": "/portfolio-web-developer/static/media/MainDreams.481720fa47ac5e6a04b3.png",
     "static/media/HaifaMainPic.png": "/portfolio-web-developer/static/media/HaifaMainPic.7643c6b37dd7a08ae088.png",
@@ -19,7 +20,6 @@
     "static/media/MestoPopup.png": "/portfolio-web-developer/static/media/MestoPopup.8834f6dce02556603f0d.png",
     "static/media/MainDreamsFriends.png": "/portfolio-web-developer/static/media/MainDreamsFriends.72578ef2dd47b4b24d82.png",
     "static/media/HaifaMuseums.png": "/portfolio-web-developer/static/media/HaifaMuseums.5a89b47b1db1817001a9.png",
-    "static/media/mainpic.png": "/portfolio-web-developer/static/media/mainpic.7cf2be0d2234f0f0f131.png",
     "static/media/aistformpic.png": "/portfolio-web-developer/static/media/aistformpic.009c68e63572abdeedcb.png",
     "static/media/picstudyfridman.png": "/portfolio-web-developer/static/media/picstudyfridman.d8f63244c1b3ce22d5e9.png",
     "static/media/dreamsAdd.png": "/portfolio-web-developer/static/media/dreamsAdd.8b354d27978e4974b971.png",
@@ -33,12 +33,12 @@
     "static/media/api.png": "/portfolio-web-developer/static/media/api.c223fca7e02d0eeaacbe.png",
     "static/media/closeBtn.png": "/portfolio-web-developer/static/media/closeBtn.274c2666f26fc60c8ca8.png",
     "index.html": "/portfolio-web-developer/index.html",
-    "main.e315e299.css.map": "/portfolio-web-developer/static/css/main.e315e299.css.map",
-    "main.6b35e9b2.js.map": "/portfolio-web-developer/static/js/main.6b35e9b2.js.map",
+    "main.9502bf64.css.map": "/portfolio-web-developer/static/css/main.9502bf64.css.map",
+    "main.a9fa1586.js.map": "/portfolio-web-developer/static/js/main.a9fa1586.js.map",
     "787.852259af.chunk.js.map": "/portfolio-web-developer/static/js/787.852259af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e315e299.css",
-    "static/js/main.6b35e9b2.js"
+    "static/css/main.9502bf64.css",
+    "static/js/main.a9fa1586.js"
   ]
 }

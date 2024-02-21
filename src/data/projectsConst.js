@@ -29,6 +29,14 @@ import velesMain from '../Images/velestasks.png'
 import velesTask from '../Images/veles.png'
 import velesPic from '../Images/velesT.png'
 
+import mainAddAd from '../Images/mainAddAd.png'
+import adPage from '../Images/adPage.png'
+import addAdForm from '../Images/addAdForm.png'
+
+import regpage from '../Images/regpage.png'
+import loginpage from '../Images/loginpage.png'
+import insideAppPage from '../Images/insideAppPage.png'
+
 import apiPic from '../Images/api.png'
 
 export const pictures = [
@@ -279,7 +287,7 @@ export const projects = [
         'link': "https://github.com/VarvaraKorableva/movies-explorer-api",
         'description' : "This API was designed for seamless film data management.",
         'mainIdea': "Here are functionalities like adding, deleting, liking, and retrieving all data.",
-        'technologies': "I used Node.js, Express, and MongoDB to create this API"
+        'technologies': "Node.js, Express, MongoDB"
       }
     },
     {
@@ -305,11 +313,65 @@ export const projects = [
         'link': "https://github.com/VarvaraKorableva/what-do-you-dreame-about",
         'description': "This is a beautiful app for individuals who don't want to answer the question 'What do you want from me for your birthday or New Year?'",
         'mainIdea': "The main idea is that a person can add what they want on their page, and their friends, when deciding what to gift at a party, can view a wonderful and truly desired present on the person's page. It's like a wish list, but more comprehensive. You can add pictures, links, filter presents, see the nearest present date, write messages to your friends, and more.",
-        'technologies': "My backend is built on Node.js (Express), my database is MongoDB, and the frontend is developed using React. I've used clean CSS."
+        'technologies': "Node.js, Express, MongoDB, React, CSS, JSX"
       }
     },
     {
       'id': 10,
+      'pic' : [
+        {
+          pic: mainAddAd,
+          pic_id: 279,
+          pic_name: "Main page picture"
+        },
+        {
+          pic: adPage,
+          pic_id: 280,
+          pic_name: "Ad page picture"},
+        {
+          pic: addAdForm,
+          pic_id: 281,
+          pic_name: "Add ad form page picture"
+        },
+      ],
+      'title' : 'Personal goods marketplace',
+      'description': {
+        'link': "https://github.com/VarvaraKorableva/personal_goods_marketplace_client",
+        'apiLink': "https://github.com/VarvaraKorableva/personal_goods_marketplace_api",
+        'videoLink': "https://www.loom.com/share/6d3265ba2f4d411c9af9ed64c793a0c3?sid=2cd9a049-3605-4b8e-a1dc-4423d40d5761",
+        'description': "The application was created for the sale of personal items. You can also place an offer for a service, such as manicure, repair or cleaning. This App helps people find necessary goods at a low price, and sellers get rid of unnecessary things without harming the environment. It also helps to find a provider of the required service.",
+        'technologies': "Node.js, Express, ElephantSQL, React, Amazon S3"
+      }
+    },
+    {
+      'id': 11,
+      'pic' : [
+        {
+          pic: regpage,
+          pic_id: 282,
+          pic_name: "Registration page picture"
+        },
+        {
+          pic: loginpage,
+          pic_id: 283,
+          pic_name: "Login page picture"},
+        {
+          pic: insideAppPage,
+          pic_id: 284,
+          pic_name: "Inside App page picture"
+        },
+      ],
+      'title' : 'Fitness and diet tracker',
+      'description': {
+        'link': "https://github.com/VarvaraKorableva/fitness-and-diet-strategies",
+        'apiLink': "",
+        'videoLink': "",
+        'description': "The application was created as a result of a 3-day hackathon. This is a RESTful API application designed for tracking calories consumed during the day. Here, you can add products and their approximate weights, and the application will provide you with all the information on your page, including the number of calories remaining until reaching the norm or show how much more you have consumed.",
+        'technologies': "NodeJs, Express, CSS, HTML5, ElephantSQL, KNEX"
+      }
+    },
+    {
+      'id': 12,
       'pic' : [AistMainPic,],
       'title' : 'Aist',
       'description': {
@@ -319,7 +381,7 @@ export const projects = [
       }
     },
     {
-      'id': 11,
+      'id': 13,
       'pic' : [MainDreams,MainDreamsFriends,DreamsSecondMain,],
       'title' : 'What-do-you-dream-about?',
       'description': {

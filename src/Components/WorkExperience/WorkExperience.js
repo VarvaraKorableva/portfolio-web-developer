@@ -31,7 +31,7 @@ return (
                     management, Node.js, Express, MongoDB)</li>
                 <li>Deployed web applications to servers using Webpack, NGINX, pm2</li>
             </ul>
-            <h3 className="experience__subtitle">May 2021 - Oct 2022: Web-Developer (Junior Developer) AUTO49 (Selling goods store)</h3>
+            <h3 className="experience__subtitle">May 2022 - Oct 2022: Web-Developer (Junior Developer) AUTO49 (Selling goods store)</h3>
             <ul className="experience__container">
                 <li>Website design and web page coding (HTML,CSS)</li>
                 <li>Creating layouts in Figma</li>

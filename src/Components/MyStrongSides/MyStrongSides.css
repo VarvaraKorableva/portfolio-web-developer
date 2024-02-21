@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../../Images/mainpic.png);
-    /*background-image: url(/src/Images/mainpic.png);*/
+    background: url(../../Images/mainPic.jpg) no-repeat #BE9FE1;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

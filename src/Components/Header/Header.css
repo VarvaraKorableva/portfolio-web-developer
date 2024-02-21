@@ -8,13 +8,14 @@
 .header__navigation {
     display: flex;
     justify-content: space-between;
-    background-image: url(../../Images/mainpic.png);
-    /*background-image: url(/src/Images/mainpic.png);*/
+    background: url(../../Images/mainPic.jpg);
     background-repeat: no-repeat;
     background-position: start;
     background-size: cover;
     border-bottom: 3px solid #fff;
-
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .header__logo-container {
@@ -37,6 +38,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: #BE9FE1;
+    border: 2px solid #a96af0;
     color: #fff;
     display: flex;
     align-items: center;
@@ -101,8 +103,7 @@
     margin: 20px;
 }
 .header__container-wrapper {
-    background-image: url(../../Images/mainpic.png);
-    /*background-image: url(/src/Images/mainpic.png);*/
+    background: url(../../Images/mainPic.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,5 +228,87 @@
 @media screen and (max-width: 510px) {
     .header__text {
       font-size: 12px;
+    }
+}
+
+
+
+
+/* Styles from footer*/
+
+.footer__contact-container {
+    padding: 0;
+    display: flex;
+    margin: 10px; 
+
+}
+
+@media screen and (max-width: 550px) {
+    .footer__contact-container {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.footer__contact-container-wrapper{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+    align-items: end;
+}
+
+@media screen and (max-width: 550px) {
+    .footer__contact-container-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.footer__contact-item {
+    color: #fff;
+    list-style-type: none;
+    margin: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 510px) {
+    .footer__contact-item {
+      font-size: 14px;
+    }
+}
+
+.footer__contact-item:hover {
+   opacity: 0.7;
+}
+
+.footer__contact-item-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 510px) {
+    .footer__contact-item-link {
+      font-size: 14px;
+    }
+}
+
+.footer__contact-mail {
+    margin: 0;
+}
+
+.footer__contact-item-wrapper {
+    display: flex;
+}
+
+.footer__contact__info__container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .footer__contact__info__container {
+        position: relative;
     }
 }

@@ -2,7 +2,8 @@ import React from 'react'
 import './Header.css'
 import myImage from '../../Images/mypic.jpg'
 import resumePath from '../../Images/CV_KorablevaVarvara.pdf'
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link'
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 
 function Header({isBurgerMenuCliked}) {
 
@@ -51,8 +52,41 @@ function Header({isBurgerMenuCliked}) {
                 <a href={resumePath} download="WebDeveloper_KorablevaVarvara.pdf" className="header__project-link">
                   Download Resume
                 </a>
+                <ul className='footer__contact-container'>
+                  <li className='footer__contact-item'>
+                    <a className='footer__contact-item-link' href='mailto:varkor90@gmail.com' target='_blank'>
+                      <FaGoogle />
+                    </a>
+                  </li>
+                  <li className='footer__contact-item'>
+                    <a className='footer__contact-item-link' href='https://github.com/VarvaraKorableva' target='_blank'>
+                      <FaGithub />
+                    </a>
+                  </li>
+                  <li className='footer__contact-item'>
+                    <a className='footer__contact-item-link' href='https://www.linkedin.com/in/varvara-korableva/' target='_blank'>
+                      <FaLinkedin />
+                    </a>
+                  </li>
+                  <li className='footer__contact-item'>
+                    <a className='footer__contact-item-link' href='https://www.instagram.com/varvarakorableva/' target='_blank'>
+                      <FaInstagram />
+                    </a>
+                  </li>
+                  <li className='footer__contact-item'>
+                    <a className='footer__contact-item-link' href='https://wa.me/+79163270427' target='_blank'>
+                      <FaWhatsapp />
+                    </a>
+                  </li>
+                  <li className='footer__contact-item'>
+                    <a className='footer__contact-item-link' href='https://t.me/VarvaraKorableva' target='_blank'>
+                      <FaTelegram />
+                    </a>
+                  </li>
+                </ul>  
             </div>
             <img src={myImage} className="header__img" alt='My_pic'></img>
+            
           </div>
         </div>
         

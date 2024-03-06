@@ -54,7 +54,7 @@ function Header({isBurgerMenuCliked}) {
                 </a>
                 <ul className='footer__contact-container'>
                   <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='mailto:varkor90@gmail.com' target='_blank'>
+                    <a className='footer__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
                       <FaGoogle />
                     </a>
                   </li>

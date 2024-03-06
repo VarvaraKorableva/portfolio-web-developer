@@ -11,15 +11,15 @@ return (
         <div className='footer__contact__info__container'>
         <ul className='footer__contact-container-wrapper'>
             <li className='footer__contact-item footer__contact-item-wrapper'>
-                <a className='footer__contact-item-link' href='mailto:varkor90@gmail.com' target='_blank'>
-                varkor90@gmail.com
+                <a className='footer__contact-item-link' href='varvarakorablevawork@gmail.com' target='_blank'>
+                varvarakorablevawork@gmail.com
                 </a>
             </li>
             <li className='footer__contact-item'>+972533646394</li>
         </ul>
         <ul className='footer__contact-container'>
             <li className='footer__contact-item'>
-                <a className='footer__contact-item-link' href='mailto:varkor90@gmail.com' target='_blank'>
+                <a className='footer__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
                     <FaGoogle />
                 </a>
             </li>

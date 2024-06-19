@@ -37,6 +37,10 @@ import regpage from '../Images/regpage.png'
 import loginpage from '../Images/loginpage.png'
 import insideAppPage from '../Images/insideAppPage.png'
 
+import announcementChemodan from '../Images/announcementChemodan.png'
+import kaitana from '../Images/kaitana.png'
+import schedule from '../Images/schedule.png'
+
 import apiPic from '../Images/api.png'
 
 export const pictures = [
@@ -370,25 +374,32 @@ export const projects = [
         'technologies': "NodeJs, Express, CSS, HTML5, ElephantSQL, KNEX"
       }
     },
+
     {
       'id': 12,
-      'pic' : [AistMainPic,],
-      'title' : 'Aist',
+      'pic' : [
+        {
+          pic: announcementChemodan,
+          pic_id: 285,
+          pic_name: "Announcement picture"
+        },
+        {
+          pic: kaitana,
+          pic_id: 286,
+          pic_name: "Kaitana picture"},
+        {
+          pic: schedule,
+          pic_id: 287,
+          pic_name: "schedule picture"
+        },
+      ],
+      'title' : 'Web-site for festivale- Vchemodane',
       'description': {
-        'description' : "This small app is all about adding pictures, like Instagram, but it's simpler.",
-        'mainIdea': "Here, you can add and change your avatar picture and name. Additionally, you can add, delete, and change your other pictures and like pictures that your friends have added.",
-        'technologies': "I have a few versions of this app. One is created using vanilla JavaScript, another is developed using React and utilizes Yandex's API, and the last one is built on React and uses my own API through Express."
-      }
-    },
-    {
-      'id': 13,
-      'pic' : [MainDreams,MainDreamsFriends,DreamsSecondMain,],
-      'title' : 'What-do-you-dream-about?',
-      'description': {
-        
-        'description': "This is a beautiful app for individuals who don't want to answer the question 'What do you want from me for your birthday or New Year?'",
-        'mainIdea': "The main idea is that a person can add what they want on their page, and their friends, when deciding what to gift at a party, can view a wonderful and truly desired present on the person's page. It's like a wish list, but more comprehensive. You can add pictures, links, filter presents, see the nearest present date, write messages to your friends, and more.",
-        'technologies': "My backend is built on Node.js (Express), my database is MongoDB, and the frontend is developed using React. I've used clean CSS."
+        'link': "https://vchemodane.com/",
+        'apiLink': "",
+        'videoLink': "",
+        'description': "Website for the festival 'Vchemodane', the website is an announcement of the next festival and invites guests to it. The site is under constant development and additions",
+        'technologies': "React"
       }
     },
     

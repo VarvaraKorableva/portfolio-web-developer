@@ -7,6 +7,20 @@ return (
    <section className="experience" id="experience">
         <h2 className="experience__title">Experience</h2>
           <div className="experience__wrapper">
+            <h3 className="experience__subtitle">Apr 2024 - Present: FullStack-Developer, InsAIt</h3>
+            <ul className="experience__container">
+                <li>Developed an admin panel displaying analytics of client-bot communication data, 
+                    featuring interactive charts using the Recharts library,
+                </li>
+                <li>
+                Implemented secure pages accessible only to company personnel using Keycloak, ensuring client data confidentiality,
+                </li>
+                <li>
+                Designed feedback pages enabling clients to submit feedback and allowing employees to engage in correspondence and update bug fix statuses,
+                </li>
+                <li>Refactoring of the codebase
+                </li>
+            </ul>  
             <h3 className="experience__subtitle">Dec 2022 - Present: Web-Developer, Veles Research, (Software Development)</h3>
             <ul className="experience__container">
                 <li>Participating in the development of an online store, a testing platform, 

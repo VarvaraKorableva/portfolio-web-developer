@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import myImage from '../../Images/mypic.jpg'
-import resumePath from '../../Images/CV_KorablevaVarvara.pdf'
+import resumePath from '../../Images/CV_VarvaraKorableva.pdf'
 import { HashLink as Link } from 'react-router-hash-link'
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp, FaTelegram, FaGoogle } from 'react-icons/fa'
 
@@ -49,7 +49,7 @@ function Header({isBurgerMenuCliked}) {
                 </p>
                   {/* <Link to={'#projects'} className="header__project-link">Take a look on my Pojects →</Link> */}
 
-                <a href={resumePath} download="WebDeveloper_KorablevaVarvara.pdf" className="header__project-link">
+                <a href={resumePath} download="CV_VarvaraKorableva.pdf" className="header__project-link">
                   Download Resume
                 </a>
                 <ul className='footer__contact-container'>

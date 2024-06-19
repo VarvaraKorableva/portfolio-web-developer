@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-web-developer/static/css/main.09e67837.css",
-    "main.js": "/portfolio-web-developer/static/js/main.d6fe07e9.js",
-    "static/js/787.2ca9a7bd.chunk.js": "/portfolio-web-developer/static/js/787.2ca9a7bd.chunk.js",
+    "main.css": "/portfolio-web-developer/static/css/main.b39ac6a0.css",
+    "main.js": "/portfolio-web-developer/static/js/main.542ba521.js",
+    "static/js/787.852259af.chunk.js": "/portfolio-web-developer/static/js/787.852259af.chunk.js",
     "static/media/mainPic.jpg": "/portfolio-web-developer/static/media/mainPic.4609b6f2bc9d3f68693f.jpg",
     "static/media/loginpage.png": "/portfolio-web-developer/static/media/loginpage.0a502083c7868a2a8d39.png",
     "static/media/regpage.png": "/portfolio-web-developer/static/media/regpage.4afbcda1d29bf694d540.png",
@@ -21,6 +21,7 @@
     "static/media/aistmain.png": "/portfolio-web-developer/static/media/aistmain.f39dcbb398e7250d812b.png",
     "static/media/HaifaNature.png": "/portfolio-web-developer/static/media/HaifaNature.26d7daaf7b5a91d82d33.png",
     "static/media/HaifaTransport.png": "/portfolio-web-developer/static/media/HaifaTransport.ca1d4c3289b29951b18c.png",
+    "static/media/announcementChemodan.png": "/portfolio-web-developer/static/media/announcementChemodan.c544554011e88b43e559.png",
     "static/media/MestoPopup.png": "/portfolio-web-developer/static/media/MestoPopup.8834f6dce02556603f0d.png",
     "static/media/MainDreamsFriends.png": "/portfolio-web-developer/static/media/MainDreamsFriends.72578ef2dd47b4b24d82.png",
     "static/media/HaifaMuseums.png": "/portfolio-web-developer/static/media/HaifaMuseums.5a89b47b1db1817001a9.png",
@@ -29,22 +30,24 @@
     "static/media/picstudyfridman.png": "/portfolio-web-developer/static/media/picstudyfridman.d8f63244c1b3ce22d5e9.png",
     "static/media/dreamsAdd.png": "/portfolio-web-developer/static/media/dreamsAdd.8b354d27978e4974b971.png",
     "static/media/picstudytech.png": "/portfolio-web-developer/static/media/picstudytech.e5106b80fa23eacf6396.png",
+    "static/media/schedule.png": "/portfolio-web-developer/static/media/schedule.97936acdf3a8ff445ac2.png",
     "static/media/mypic.jpg": "/portfolio-web-developer/static/media/mypic.c78beab660997333467a.jpg",
     "static/media/dreamssecondmain.png": "/portfolio-web-developer/static/media/dreamssecondmain.d2f425c0ff97bd9300a7.png",
+    "static/media/kaitana.png": "/portfolio-web-developer/static/media/kaitana.f2549461ae3bb68dafe6.png",
     "static/media/veles.png": "/portfolio-web-developer/static/media/veles.defc84bb7f4aa8241999.png",
     "static/media/mainaistpic.png": "/portfolio-web-developer/static/media/mainaistpic.1b016d76fc7bf8655363.png",
     "static/media/velesT.png": "/portfolio-web-developer/static/media/velesT.8d88dae01ba4a39d2d2e.png",
     "static/media/addAdForm.png": "/portfolio-web-developer/static/media/addAdForm.8dd6407b6d3663c02163.png",
+    "static/media/CV_VarvaraKorableva.pdf": "/portfolio-web-developer/static/media/CV_VarvaraKorableva.0650853fdbe013910f8e.pdf",
     "static/media/api.png": "/portfolio-web-developer/static/media/api.c223fca7e02d0eeaacbe.png",
-    "static/media/CV_KorablevaVarvara.pdf": "/portfolio-web-developer/static/media/CV_KorablevaVarvara.1ce33d9dbbc9687ff128.pdf",
     "static/media/closeBtn.png": "/portfolio-web-developer/static/media/closeBtn.274c2666f26fc60c8ca8.png",
     "index.html": "/portfolio-web-developer/index.html",
-    "main.09e67837.css.map": "/portfolio-web-developer/static/css/main.09e67837.css.map",
-    "main.d6fe07e9.js.map": "/portfolio-web-developer/static/js/main.d6fe07e9.js.map",
-    "787.2ca9a7bd.chunk.js.map": "/portfolio-web-developer/static/js/787.2ca9a7bd.chunk.js.map"
+    "main.b39ac6a0.css.map": "/portfolio-web-developer/static/css/main.b39ac6a0.css.map",
+    "main.542ba521.js.map": "/portfolio-web-developer/static/js/main.542ba521.js.map",
+    "787.852259af.chunk.js.map": "/portfolio-web-developer/static/js/787.852259af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09e67837.css",
-    "static/js/main.d6fe07e9.js"
+    "static/css/main.b39ac6a0.css",
+    "static/js/main.542ba521.js"
   ]
 }

@@ -9,16 +9,13 @@ return (
           <div className="experience__wrapper">
             <h3 className="experience__subtitle">Apr 2024 - Present: FullStack-Developer, InsAIt</h3>
             <ul className="experience__container">
-                <li>Developed an admin panel displaying analytics of client-bot communication data, 
-                    featuring interactive charts using the Recharts library,
+                <li>Developed responsive and visually appealing frontend solutions using React, TypeScript, and integrated data visualization with Recharts,
                 </li>
                 <li>
-                Implemented secure pages accessible only to company personnel using Keycloak, ensuring client data confidentiality,
+                Engineered robust backend APIs leveraging Node.js for server-side logic, Python for data processing tasks, and integrated workflow orchestration with Prefect and data modeling with Prisma,
                 </li>
                 <li>
-                Designed feedback pages enabling clients to submit feedback and allowing employees to engage in correspondence and update bug fix statuses,
-                </li>
-                <li>Refactoring of the codebase
+                Led initiatives in codebase refactoring to improve code maintainability, readability, and scalability
                 </li>
             </ul>  
             <h3 className="experience__subtitle">Dec 2022 - Present: Web-Developer, Veles Research, (Software Development)</h3>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-web-developer/static/css/main.b39ac6a0.css",
-    "main.js": "/portfolio-web-developer/static/js/main.7aebe377.js",
+    "main.js": "/portfolio-web-developer/static/js/main.500c4dbb.js",
     "static/js/787.852259af.chunk.js": "/portfolio-web-developer/static/js/787.852259af.chunk.js",
     "static/media/mainPic.jpg": "/portfolio-web-developer/static/media/mainPic.4609b6f2bc9d3f68693f.jpg",
     "static/media/loginpage.png": "/portfolio-web-developer/static/media/loginpage.0a502083c7868a2a8d39.png",
@@ -38,16 +38,16 @@
     "static/media/mainaistpic.png": "/portfolio-web-developer/static/media/mainaistpic.1b016d76fc7bf8655363.png",
     "static/media/velesT.png": "/portfolio-web-developer/static/media/velesT.8d88dae01ba4a39d2d2e.png",
     "static/media/addAdForm.png": "/portfolio-web-developer/static/media/addAdForm.8dd6407b6d3663c02163.png",
-    "static/media/CV_VarvaraKorableva.pdf": "/portfolio-web-developer/static/media/CV_VarvaraKorableva.9a061c5c9e0e627ebe27.pdf",
+    "static/media/CV_VarvaraKorableva.pdf": "/portfolio-web-developer/static/media/CV_VarvaraKorableva.cd28d8adf9291857ec3b.pdf",
     "static/media/api.png": "/portfolio-web-developer/static/media/api.c223fca7e02d0eeaacbe.png",
     "static/media/closeBtn.png": "/portfolio-web-developer/static/media/closeBtn.274c2666f26fc60c8ca8.png",
     "index.html": "/portfolio-web-developer/index.html",
     "main.b39ac6a0.css.map": "/portfolio-web-developer/static/css/main.b39ac6a0.css.map",
-    "main.7aebe377.js.map": "/portfolio-web-developer/static/js/main.7aebe377.js.map",
+    "main.500c4dbb.js.map": "/portfolio-web-developer/static/js/main.500c4dbb.js.map",
     "787.852259af.chunk.js.map": "/portfolio-web-developer/static/js/787.852259af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b39ac6a0.css",
-    "static/js/main.7aebe377.js"
+    "static/js/main.500c4dbb.js"
   ]
 }

@@ -1,15 +1,15 @@
 import React from 'react'
 import './App.css';
-import Header from './components/Header/Header'
-import MyStrongSides from './components/MyStrongSides/MyStrongSides'
-import About from './components/About/About'
-import Stack from './components/Stack/Stack'
-import Footer from './components/Footer/Footer'
-import WorkExperience from './components/WorkExperience/WorkExperience'
-import Education from './components/Education/Education'
-import ProjectContainer from './components/ProjectContainer/ProjectContainer'
-import Navigation from './components/Navigation/Navigation'
-import ImagePopup from './components/ImagePopup/ImagePopup'
+import Header from './Components/Header/Header'
+import MyStrongSides from './Components/MyStrongSides/MyStrongSides.js'
+import About from './Components/About/About.js'
+import Stack from './Components/Stack/Stack.js'
+import Footer from './Components/Footer/Footer.js'
+import WorkExperience from './Components/WorkExperience/WorkExperience.js'
+import Education from './Components/Education/Education.js'
+import ProjectContainer from './Components/ProjectContainer/ProjectContainer.js'
+import Navigation from './Components/Navigation/Navigation.js'
+import ImagePopup from './Components/ImagePopup/ImagePopup.js'
 
 function App() {
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = React.useState(false)

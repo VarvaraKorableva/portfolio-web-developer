@@ -39,47 +39,46 @@ function Header({isBurgerMenuCliked}) {
           <div className="header__container">
             <div className="header__title-container">
                 <h1 className="header__title">Korableva Varvara</h1>
-                <h2 className="header__subtitle">Web Developer</h2>
+                <h2 className="header__subtitle">Software developer</h2>
                 <p className="header__text">
-                    Developer with more than three years of experience 
-                    in web-development. 
-                    I have a strong focus on writing clean, maintainable, and scalable code. 
-                    My ultimate goal is to enhance the user experience and provide a seamless 
-                    and enjoyable browsing experience.
+                  Experienced software developer with over four years of expertise in building scalable, 
+                  maintainable, and high-performance applications. Focused on delivering high-quality code 
+                  and improving user experience across both frontend and backend. 
+                  Passionate about creating seamless and efficient solutions.
                 </p>
                   {/* <Link to={'#projects'} className="header__project-link">Take a look on my Pojects →</Link> */}
 
                 <a href={resumePath} download="CV_VarvaraKorableva.pdf" className="header__project-link">
                   Download Resume
                 </a>
-                <ul className='footer__contact-container'>
-                  <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
+                <ul className='header__contact-container'>
+                  <li className='header__contact-item'>
+                    <a className='header__contact-item-link' href='mailto:varvarakorablevawork@gmail.com' target='_blank'>
                       <FaGoogle />
                     </a>
                   </li>
-                  <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='https://github.com/VarvaraKorableva' target='_blank'>
+                  <li className='header__contact-item'>
+                    <a className='header__contact-item-link' href='https://github.com/VarvaraKorableva' target='_blank'>
                       <FaGithub />
                     </a>
                   </li>
-                  <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='https://www.linkedin.com/in/varvara-korableva/' target='_blank'>
+                  <li className='header__contact-item'>
+                    <a className='header__contact-item-link' href='https://www.linkedin.com/in/varvara-korableva/' target='_blank'>
                       <FaLinkedin />
                     </a>
                   </li>
-                  <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='https://www.instagram.com/varvarakorableva/' target='_blank'>
+                  <li className='header__contact-item'>
+                    <a className='header__contact-item-link' href='https://www.instagram.com/varvarakorableva/' target='_blank'>
                       <FaInstagram />
                     </a>
                   </li>
-                  <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='https://wa.me/+79163270427' target='_blank'>
+                  <li className='header__contact-item'>
+                    <a className='header__contact-item-link' href='https://wa.me/+79163270427' target='_blank'>
                       <FaWhatsapp />
                     </a>
                   </li>
-                  <li className='footer__contact-item'>
-                    <a className='footer__contact-item-link' href='https://t.me/VarvaraKorableva' target='_blank'>
+                  <li className='header__contact-item'>
+                    <a className='header__contact-item-link' href='https://t.me/VarvaraKorableva' target='_blank'>
                       <FaTelegram />
                     </a>
                   </li>

@@ -1,5 +1,5 @@
 .footer {
-    background: url(../../Images/mainPic.jpg);
+    background: url(../../Images/mainpic.png);
     background-repeat: no-repeat;
     background-position: end;
     background-size: cover;
@@ -7,7 +7,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
+}
+
+.footer__wrapper {
+    width: 800px;
+}
+
+@media screen and (max-width: 840px) {
+    .footer__wrapper {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -20,6 +30,12 @@
     padding: 0;
     display: flex;
     margin: 10px; 
+    justify-content: flex-end;
+    
+}
+
+@media screen and (max-width: 575px) {
+
 }
 
 @media screen and (max-width: 550px) {
@@ -79,12 +95,12 @@
 .footer__contact-item-wrapper {
     display: flex;
 }
-
+/*
 .footer__contact__info__container {
     position: absolute;
     bottom: 10px;
     right: 10px;
-}
+}*/
 
 @media screen and (max-width: 550px) {
     .footer__contact__info__container {

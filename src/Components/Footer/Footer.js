@@ -7,6 +7,7 @@ function Footer() {
 
 return (
     <footer className='footer' id="contact">
+        <div className='footer__wrapper'>
         <Contact></Contact>
         <div className='footer__contact__info__container'>
         <ul className='footer__contact-container-wrapper'>
@@ -49,6 +50,7 @@ return (
                 </a>
             </li>
         </ul>
+        </div>
         </div>
     </footer>
 )
